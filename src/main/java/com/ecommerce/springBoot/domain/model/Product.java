@@ -5,3 +5,4 @@ public record Product(
         String name,
         Float price,
         Integer stock) {}
+
