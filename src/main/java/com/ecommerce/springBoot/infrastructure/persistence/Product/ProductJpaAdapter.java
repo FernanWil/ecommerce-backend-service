@@ -1,6 +1,6 @@
-package com.ecommerce.springBoot.infrastructure.persistence;
+package com.ecommerce.springBoot.infrastructure.persistence.Product;
 
-import com.ecommerce.springBoot.application.port.out.Product.ProductRepositoryPort;
+import com.ecommerce.springBoot.application.ports.out.Product.ProductRepositoryPort;
 import com.ecommerce.springBoot.domain.model.Product;
 import com.ecommerce.springBoot.infrastructure.JpaRepositoryInterface;
 import org.springframework.stereotype.Repository;

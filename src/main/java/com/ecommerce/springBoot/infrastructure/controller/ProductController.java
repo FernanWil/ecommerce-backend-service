@@ -1,7 +1,7 @@
 package com.ecommerce.springBoot.infrastructure.controller;
 
-import com.ecommerce.springBoot.application.dto.CreateProductCommand;
-import com.ecommerce.springBoot.application.port.in.Product.CreateProductUseCase;
+import com.ecommerce.springBoot.application.dto.Product.CreateProductCommand;
+import com.ecommerce.springBoot.application.ports.in.Product.CreateProductUseCase;
 import com.ecommerce.springBoot.domain.model.Product;
 import com.ecommerce.springBoot.infrastructure.controller.dto.ProductDTO;
 import jakarta.validation.Valid;

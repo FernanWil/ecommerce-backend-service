@@ -1,4 +1,4 @@
-package com.ecommerce.springBoot.application.dto;
+package com.ecommerce.springBoot.application.dto.Product;
 
 import java.math.BigDecimal;
 

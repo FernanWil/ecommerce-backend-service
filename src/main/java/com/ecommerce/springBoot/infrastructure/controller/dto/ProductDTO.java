@@ -1,5 +1,5 @@
 package com.ecommerce.springBoot.infrastructure.controller.dto;
-import com.ecommerce.springBoot.application.dto.CreateProductCommand;
+import com.ecommerce.springBoot.application.dto.Product.CreateProductCommand;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;

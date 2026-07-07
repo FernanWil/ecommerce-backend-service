@@ -1,4 +1,4 @@
-package com.ecommerce.springBoot.application.port.out.Product;
+package com.ecommerce.springBoot.application.ports.out.Product;
 
 import com.ecommerce.springBoot.domain.model.Product;
 

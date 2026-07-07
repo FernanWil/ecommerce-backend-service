@@ -1,4 +1,4 @@
-package com.ecommerce.springBoot.application.port.out.User;
+package com.ecommerce.springBoot.application.ports.out.User;
 
 import com.ecommerce.springBoot.domain.model.User;
 
