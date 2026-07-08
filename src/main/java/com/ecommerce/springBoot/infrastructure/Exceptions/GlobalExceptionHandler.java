@@ -1,4 +1,4 @@
-package com.ecommerce.springBoot.infrastructure.controller;
+package com.ecommerce.springBoot.infrastructure.Exceptions;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
@@ -32,5 +32,7 @@ public class GlobalExceptionHandler {
         response.put("details", errors);
         return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
     }
+
+
 }
 

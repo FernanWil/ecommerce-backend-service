@@ -1,4 +1,4 @@
-package com.ecommerce.springBoot.infrastructure.Configuration;
+package com.ecommerce.springBoot.infrastructure.Configuration.Product;
 
 import com.ecommerce.springBoot.application.ports.in.Product.CreateProductUseCase;
 import com.ecommerce.springBoot.application.ports.out.Product.ProductRepositoryPort;

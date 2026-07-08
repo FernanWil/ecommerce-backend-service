@@ -1,4 +1,4 @@
-package com.ecommerce.springBoot.infrastructure.controller;
+package com.ecommerce.springBoot.infrastructure.controller.Product;
 
 import com.ecommerce.springBoot.application.dto.Product.CreateProductCommand;
 import com.ecommerce.springBoot.application.ports.in.Product.CreateProductUseCase;
