@@ -13,8 +13,9 @@ public class RegisterUserUseCaseImpl implements RegisterUserUseCase {
 
     @Override
     public User execute(RegisterUserCommand userCommand) {
-
         User newUser = User.createNew(userCommand.name(), userCommand.email(), userCommand.password());
+        User.isValidUserName(userCommand.name());
+        User.isValidEmail(userCommand.email());
         return  repositoryPort.createUser(newUser);
 
     }
