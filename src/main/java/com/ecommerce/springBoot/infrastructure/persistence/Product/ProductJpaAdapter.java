@@ -2,14 +2,14 @@ package com.ecommerce.springBoot.infrastructure.persistence.Product;
 
 import com.ecommerce.springBoot.application.ports.out.Product.ProductRepositoryPort;
 import com.ecommerce.springBoot.domain.model.Product;
-import com.ecommerce.springBoot.infrastructure.JpaRepositoryInterface;
+import com.ecommerce.springBoot.infrastructure.ProductJpaRepositoryInterface;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public class ProductJpaAdapter implements ProductRepositoryPort {
 
-    final JpaRepositoryInterface repositoryInterface;
-    public ProductJpaAdapter(JpaRepositoryInterface repositoryInterface){
+    final ProductJpaRepositoryInterface repositoryInterface;
+    public ProductJpaAdapter(ProductJpaRepositoryInterface repositoryInterface){
         this.repositoryInterface = repositoryInterface;
     }
 
