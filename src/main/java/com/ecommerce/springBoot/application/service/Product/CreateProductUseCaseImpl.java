@@ -3,7 +3,7 @@ package com.ecommerce.springBoot.application.service.Product;
 import com.ecommerce.springBoot.application.dto.Product.CreateProductCommand;
 import com.ecommerce.springBoot.application.ports.in.Product.CreateProductUseCase;
 import com.ecommerce.springBoot.application.ports.out.Product.ProductRepositoryPort;
-import com.ecommerce.springBoot.domain.model.Product;
+import com.ecommerce.springBoot.domain.models.Product;
 
 public class CreateProductUseCaseImpl implements CreateProductUseCase {
     private final ProductRepositoryPort productRepository;

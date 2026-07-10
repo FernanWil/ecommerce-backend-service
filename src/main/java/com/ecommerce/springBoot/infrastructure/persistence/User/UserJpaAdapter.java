@@ -1,7 +1,7 @@
 package com.ecommerce.springBoot.infrastructure.persistence.User;
 
 import com.ecommerce.springBoot.application.ports.out.User.UserRepositoryPort;
-import com.ecommerce.springBoot.domain.model.User;
+import com.ecommerce.springBoot.domain.models.User;
 import com.ecommerce.springBoot.infrastructure.UserJpaRepository;
 import org.springframework.stereotype.Repository;
 

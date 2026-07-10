@@ -1,5 +1,4 @@
-package com.ecommerce.springBoot.domain.model;
-import org.springframework.web.bind.MethodArgumentNotValidException;
+package com.ecommerce.springBoot.domain.models;
 
 import java.math.BigDecimal;
 import java.util.UUID;

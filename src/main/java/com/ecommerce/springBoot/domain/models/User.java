@@ -1,4 +1,4 @@
-package com.ecommerce.springBoot.domain.model;
+package com.ecommerce.springBoot.domain.models;
 
 import java.util.UUID;
 import java.util.regex.Pattern;
