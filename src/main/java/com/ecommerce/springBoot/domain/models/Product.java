@@ -7,7 +7,8 @@ public record Product(
         String id,
         String name,
         BigDecimal price,
-        Integer stock) {
+        Integer stock
+        ) {
 
     public static Product createNew(String name, BigDecimal price, Integer stock){
         return  new Product(

@@ -22,10 +22,9 @@ public class ProductController {
 
     @PostMapping
     public ResponseEntity<Product> createProductRequest(@Valid @RequestBody ProductDTO dto){
-        if (dto == null) System.out.println("No se encontró ningun producto ");
+        if (dto == null) throw new IllegalArgumentException("Invalid information dto");
         CreateProductCommand command = dto.toCommand();
         Product newProduct = productUseCase.execute(command);
-
         return ResponseEntity.status(HttpStatus.CREATED).body(newProduct);
     }
 }

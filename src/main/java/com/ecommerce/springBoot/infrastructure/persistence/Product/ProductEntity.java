@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 
 
+
 @Entity
 @Data
 @Table(name = "products")
@@ -19,9 +20,9 @@ public class ProductEntity {
     @Column(name = "nombre")
     private String name;
 
-    @Column(name= "precio")
+    @Column(name= "price")
     private BigDecimal price;
 
-    @Column(name = "cantidad")
+    @Column(name = "stock")
     private Integer stock;
 }

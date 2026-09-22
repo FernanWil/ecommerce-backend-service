@@ -1,4 +1,4 @@
-package com.ecommerce.springBoot.infrastructure;
+package com.ecommerce.springBoot.infrastructure.persistence.JpaRepository.User;
 
 import com.ecommerce.springBoot.infrastructure.persistence.User.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
